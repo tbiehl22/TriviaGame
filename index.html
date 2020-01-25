@@ -6,11 +6,32 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <!-- <link rel="stylesheet" href="assets/css/reset.css"> -->
     <link rel="stylesheet" href="assets/css/style.css">
-    <title>Document</title>
+    <title>Trivia Game</title>
 </head>
 <body>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="assets/javascript/game.js"></script>
+
+    
+    <div class="header">
+        <h1>NBA Trivia Game!</h1>
+        <div id="timer">60</div>
+    </div>
+
+    <button id="start">Start</button>
+
+    <div class="triviaQuestions">
+    </div>
+
+    <div id="results">
+        <h2 id="correct">Correct:</h2>
+        <h2 id="incorrect">Incorrect:</h2>
+        <h2 id="unanswered">Unanswered:</h2>
+    </div>
+
+    <button class="done">Done</button>
+
+    <button class="resetGame">Reset</button>
     
 </body>
 </html>
