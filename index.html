@@ -7,6 +7,7 @@
     <!-- <link rel="stylesheet" href="assets/css/reset.css"> -->
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Trivia Game</title>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/yMyYwoTMIgY?rel=0&autoplay=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </head>
 <body>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -15,23 +16,28 @@
     
     <div class="header">
         <h1>NBA Trivia Game!</h1>
-        <div id="timer">60</div>
+        <div id="timer"></div>
     </div>
 
-    <button id="start">Start</button>
+    <div id="startPage">
+    <button class="start">Start</button>
+    </div>
 
     <div class="triviaQuestions">
     </div>
 
-    <div id="results">
-        <h2 id="correct">Correct:</h2>
-        <h2 id="incorrect">Incorrect:</h2>
-        <h2 id="unanswered">Unanswered:</h2>
+    <div id="endPage">
+        <h2>Scoreboard</h2>
+        <p id="correct"></p>
+        <p id="incorrect"></p>
+        <p id="unanswered"></p>
     </div>
 
     <button class="done">Done</button>
 
     <button class="resetGame">Reset</button>
+
+    <audio src=""></audio>
     
 </body>
 </html>
