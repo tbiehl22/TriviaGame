@@ -50,7 +50,9 @@ var trivia =  {
             var answer3 = questionList[i].answers[2];
             var answer4 = questionList[i].answers[3];
 
-            
+            divContainer.append('<div class="form-check"><input class="form-check-input" type="radio" name="radio-group'+i+'" id="radio'+i+'"><label class="form-check-label" id="radio'+i+'label" for="radio'+i+'">' + answer1 + '</label></div>');
+            divContainer.append('<div class="form-check"><input class="form-check-input" type="radio" name="radio-group'+i+'" id="radio'+i+'"><label class="form-check-label" id="radio'+i+'label" for="radio'+i+'">' + answer2 + '</label></div>');
+            divContainer.append('<div class="form-check"><input class="form-check-input" type="radio" name="radio-group'+i+'" id="radio'+i+'"><label class="form-check-label" id="radio'+i+'label" for="radio'+i+'">' + answer3 + '</label></div>');
 
             var doneButton = '<button class="done">Done</button>';
             questions.append(doneButton);
@@ -74,7 +76,7 @@ checkAnswers: function()   {
 
 
 
-    var questionList =
+var questionList =
     [
         {
             question: "What city did the Seattle SuperSonics move to in 2008?",
