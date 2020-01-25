@@ -2,4 +2,10 @@ body {
     background-image: url("../images/NBA.jpg");
     background-size: 100%;
     
+    
+    
+}
+
+#music {
+    display: none;
 }
