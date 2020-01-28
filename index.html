@@ -7,37 +7,36 @@
     <!-- <link rel="stylesheet" href="assets/css/reset.css"> -->
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Trivia Game</title>
+    
 </head>
 <body>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="assets/javascript/game.js"></script>
-
+   
     
     <div class="header">
         <h1>NBA Trivia Game!</h1>
-        <div id="timer"></div>
+        <div id="timer">2:00</div>
+        <img src="assets/images/kobe.jpg" alt="RIP Kobe">
     </div>
 
-    <div id="startPage">
     <button class="start">Start</button>
-    </div>
+
 
     <div class="triviaQuestions">
+
     </div>
 
     <div id="endPage">
-        <h2>Scoreboard</h2>
-        <p id="correct"></p>
-        <p id="incorrect"></p>
-        <p id="unanswered"></p>
+        <h2 id="correct"></h2>
+        <h2 id="incorrect"></h2>
+        <h2 id="unanswered"></h2>
     </div>
 
     <button class="done">Done</button>
 
     <button class="resetGame">Reset</button>
-
-    <iframe id="music" width="560" height="315" src="https://www.youtuberepeater.com/watch?v=0Pnl1ulaG5k#gsc.tab=0?rel=0&autoplay=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
+   
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/javascript/app.js"></script>
 
 </body>
 </html>
