@@ -4,7 +4,7 @@ This game is dedicated to Kobe Bryant and his daughter Gianna who tragically pas
 a huge Trail Blazers fan I loved to hate him but respected his game so much. I looked forward to seeing him in retirement. He was
 doing so much good. It hurts so bad and I am heart broken. #Mambamentality! #KB824
 
-In this assignment, You'll create a Trivia game using JavaScript for the logic and jQuery to manipulate HTML. Be sure to layout this app with valid HTML and stylish CSS.
+In this assignment, create a trivia game using JavaScript for the logic and jQuery to manipulate HTML. Be sure to layout this app with valid HTML and stylish CSS.
 
 You'll create a trivia form with multiple choice or true/false options (your choice).
 
