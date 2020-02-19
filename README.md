@@ -1,5 +1,7 @@
 <h1>NBA Trivia Game!</h1>
 
+Link: https://tbiehl22.github.io/TriviaGame/
+
 This game is dedicated to Kobe Bryant and his daughter Gianna who tragically passed away while I was building this game. Growing up
 a huge Trail Blazers fan I loved to hate him but respected his game so much. I looked forward to seeing him in retirement. He was
 doing so much good. It hurts so bad and I am heart broken. #Mambamentality! #KB824
@@ -15,5 +17,3 @@ You'll create a trivia form with multiple choice or true/false options (your cho
 * Don't let the player pick more than one answer per question.
 
 * Don't forget to include a countdown timer.
-
-Link: https://tbiehl22.github.io/TriviaGame/
